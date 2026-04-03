@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.list__li {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+#listCurrency {
+  border: 1px solid black;
+  width: 120px;
+  padding: 0;
+  height: 20px;
+  overflow: hidden;
+}
+
+#listCurrency>li {
+  margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+<ul class="list">
+    {{#each products}}<li class="list__li">
+        <h1>{{name}}</h1>
+        <p>{{price}}</p>
+        <p>{{category}}</p>
+        {{#if inStock}}
+        <p>Є в наявності</p>
+        {{else}}
+        <p>Нема в наявності</p>
+        {{/if}}
+    </li>{{/each}}
+</ul>
